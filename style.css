@@ -614,8 +614,10 @@ p {
     background-position: center;
     border-radius: 20px;
     width: 385px;
-    height: 168px;
+    height: 250px;
+    margin: 20px 7px;
 }
+
 
 /* Potrait */
 .portrait-content {
@@ -670,7 +672,23 @@ p {
 .painting-head {
     display: flex;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 30px 20px;
+}
+
+.painting-heading {
+    align-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #342415;
+    border-radius: 14px;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 3px 6px 2px;
+    width: 158px;
+    height: 26px;
+    max-width: 100%;
 }
 
 .painting-heading p {
@@ -684,7 +702,123 @@ p {
     color: #323025;
 }
 
+.painting-para-heading {
+    color: #342415;
+    font-size: 20px;
+    font-weight: 700;
+    height: auto;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    text-align: start;
+    width: auto;
+    max-width: 100%;
+    margin: 43px;
+    justify-content: center;
+}
+
+.portrait-hending-text p {
+    color: #342415;
+
+    font-size: 56px;
+    font-weight: 700;
+    height: auto;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    text-align: start;
+    width: auto;
+    max-width: 100%;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.portrait-hending-circle .circle {
+    background: #342415;
+    border-radius: 50%;
+    flex: none;
+    height: 30px;
+    width: 30px;
+    max-width: 100%;
+}
+
+.portrait-hending-circle {
+    display: flex;
+}
+
+.portrait-hending {
+    display: flex;
+    justify-content: space-between;
+    margin: 34px 20px;
+}
+
+.portrait-para {
+    color: #342415;
+    flex: none;
+    font-family: var(--s-font-2abd927f);
+    font-size: 14px;
+    font-weight: 500;
+    height: auto;
+    line-height: 1.4;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+}
+
+.portrait-para p {
+    font-size: 14px;
+    font-weight: 500;
+    height: auto;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    justify-content: center;
+    background: transparent !important;
+}
+
 .portrait-footer {
     display: flex;
     justify-content: space-between;
+    margin-top: 11px;
+    padding: 20px 20px;
+    border-top: 1px solid #342415;
+}
+
+.left-side-text .portrait-underline {
+    transform: scale(1, 1);
+}
+
+.portrait-underline {
+    background: #342415;
+    flex: none;
+    height: 4px;
+    transform: scale(0, 1);
+    transform-origin: center left;
+    width: 100%;
+    max-width: 100%;
+}
+
+.portrait-para-headig {
+    color: #342415;
+    flex: none;
+
+    font-size: 16px;
+    font-weight: 700;
+    height: auto;
+    line-height: 1.1;
+    margin: 0px 0px 30px 0px;
+    padding: 20px 20px;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+}
+
+.bottom-right-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 126px;
+    padding: 21px 20px;
+    border-top: 1px solid #342415;
 }
