@@ -598,7 +598,7 @@ p {
     overflow-y: hidden;
     padding: 0px;
     position: absolute;
-    width: 405px;
+    width: 435px;
     height: 597px;
     left: 527px;
     top: 486px;
@@ -649,9 +649,9 @@ p {
 /* painting section */
 .bottom-right-painting-side {
     position: absolute;
-    width: 525px;
-    height: 597px;
-    left: 960px;
+    width: 505px;
+    height: 598px;
+    left: 985px;
     top: 485px;
 
     background: #B1A48E;
@@ -742,6 +742,7 @@ p {
 
 .portrait-hending-circle {
     display: flex;
+    align-items: center;
 }
 
 .portrait-hending {
@@ -766,13 +767,14 @@ p {
 }
 
 .portrait-para p {
+    margin: 10px 20px;
     font-size: 14px;
     font-weight: 500;
     height: auto;
     letter-spacing: -0.02em;
     line-height: 1.4;
-    text-align: center;
-    width: auto;
+    text-align: start;
+    width: 440px;
     max-width: 100%;
     justify-content: center;
     background: transparent !important;
